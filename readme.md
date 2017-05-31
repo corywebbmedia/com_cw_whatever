@@ -50,7 +50,7 @@ The first thing you want to do is create a template override for the whatever mo
 2. In the `mod_cw_whatever` folder you just created, create a PHP file and name it whatever you want to name it.
 3. Add your own custom script to the PHP file you created. Note that the "Whatever" parameter in the module is aviailable to use as `$whatever` in your PHP script
 
-** Step 2: Add a CW Whatever module to any page(s) on your site
+**Step 2: Add a CW Whatever module to any page(s) on your site**
 
 1. In the Joomla administrator, go to Extensions > Modules and click "New" to add a new module.
 2. Select the CW Whatever module type.
