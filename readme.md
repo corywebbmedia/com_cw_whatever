@@ -1,0 +1,1 @@
+# CW Whatever Component for Joomla
