@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config>
+    <fieldset label="COM_CW_WHATEVER" name="whatever">
+        <field name="whatever" type="textarea" default=""
+          label="COM_CW_WHATEVER_FIELD_WHATEVER_LABEL"
+          description="COM_CW_WHATEVER_FIELD_WHATEVER_DESC" />
+    </fieldset>
+    <fieldset 
+        name="permissions"
+	description="JCONFIG_PERMISSIONS_DESC"
+	label="JCONFIG_PERMISSIONS_LABEL">
+
+		<field 
+                    name="rules" type="rules" component="com_cw_whatever"
+                    class="inputbox" filter="rules" validate="rules"
+                    label="JCONFIG_PERMISSIONS_LABEL"
+                    section="component" />
+	</fieldset>
+</config>

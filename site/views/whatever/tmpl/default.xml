@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metadata>
+	<layout title="COM_CW_WHATEVER_TITLE_VIEW_WHATEVER" option="Whatever">
+        <message>
+                        <![CDATA[COM_CW_WHATEVER_TITLE_VIEW_WHATEVER_DESC]]>
+        </message>
+	</layout>
+
+    <fields name="params">
+        <fieldset name="basic"
+            label="COM_CW_WHATEVER_SETTINGS_LABEL">
+
+            <field name="layout" type="componentlayout" extension="com_cw_whatever" view="whatever" useglobal="true"
+                label="COM_CW_WHATEVER_FIELD_LAYOUT_LABEL"
+                description="COM_CW_WHATEVER_FIELD_LAYOUT_DESC" />
+
+            <field name="whatever" type="textarea" default=""
+              label="COM_CW_WHATEVER_FIELD_WHATEVER_LABEL"
+              description="COM_CW_WHATEVER_FIELD_WHATEVER_DESC" />
+
+        </fieldset>
+    </fields>
+</metadata>
