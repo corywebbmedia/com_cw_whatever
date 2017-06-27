@@ -6,8 +6,8 @@
     <license>GNU General Public License version 2 or later; see LICENSE.txt</license>
     <author>Cory Webb</author>
     <authorEmail>joomla@corywebbmedia.com</authorEmail>
-    <authorUrl>http://corywebbmedia.com/joomla-extensions</authorUrl>
-    <version>1.0.1</version>
+    <authorUrl>https://cwextensions.com</authorUrl>
+    <version>1.0.2</version>
     <description>COM_CW_WHATEVER_XML_DESCRIPTION</description>
 
     <files folder="site">
@@ -39,7 +39,7 @@
     </administration>
 
     <updateservers>
-        <server type="extension" name="CW Whatever Component Updates"><![CDATA[https://corywebbmedia.com/cw-whatever-component-update-stream/?view=update&dummy=extension.xml]]></server>
+        <server type="extension" name="CW Whatever Component Updates"><![CDATA[https://cwextensions.com/cw-whatever-component-update-stream/?view=update&dummy=extension.xml]]></server>
     </updateservers>
     
 </extension>
